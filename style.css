@@ -1,0 +1,30 @@
+body {
+    background: #350A0E;
+    /* width: 1440px;
+    height: 1024px; */
+}
+
+.circle-1 {
+    border-radius: 513px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(251, 188, 5, 0.50) 0%, #FBBC05 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(50px);
+    width: 513px;
+    height: 494px;
+    flex-shrink: 0;
+}
+
+.login-container {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.25);
+    width: 660px;
+    height: 467px;
+    flex-shrink: 0;
+}
+
+.login-container h1 {
+    color: #fff;
+}
