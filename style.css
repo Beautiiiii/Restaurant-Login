@@ -47,12 +47,28 @@ body {
     color: white;
 }
 
-.facebook-login, .google-login {
+.forgot-button {
+    text-decoration: none;
+    color: #fff
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
     border-radius: 50px;
     border: none;
-    width: 40px;
-    height: 40px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: ;
 }
+
 
 .link-register {
     text-decoration: none;
