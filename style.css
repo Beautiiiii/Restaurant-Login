@@ -44,13 +44,20 @@ body {
     background: rgba(217, 217, 217, 0.25);
     width: 660px;
     height: 467px;
+    padding: 30px;    
     color: white;
 }
+
 
 input {
     width: 588px;
     height: 38px;
     color: #000;
+}
+
+input, .login-button, .forgot-button {
+    margin: 10px;
+
 }
 
 .login-button button {
