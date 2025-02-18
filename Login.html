@@ -10,28 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- <div class="circle-1"></div> -->
     <div class="login-container">
         <form>
-            <h1 class="login">Sign In</h1>
+            <h1 class="login abril-fatface-regular">Sign In</h1>
             <div class="column-box">
-                <input type="text" placeholder="Email">
+                <input class="roboto-font" type="text" placeholder="Email">
             </div>
             <div class="column-box">
                 <input type="text" placeholder="Password">
             </div>              
-            <button class="forgot-button">Forgot Password?</button>
+            <button class="forgot-button roboto-font">Forgot Password?</button>
             <div class="login-button">
-                <button>Sign In</button>
+                <button class="roboto-font">Sign In</button>
             </div>
-            <p>Or</p>
+            <p class="roboto-font">Or</p>
             <div class="other-login">
-                <button><img src="https://img.icons8.com/?size=512&id=17949&format=png" alt="Google"></button>
-                <button><img src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook"></button>
+                <button class="facebook-login">
+                    <img src="https://img.icons8.com/?size=512&id=17949&format=png" alt="Google" width="30px" height="30px">
+                </button>
+                <button class="google-login">
+                    <img src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" 
+                    alt="Facebook" width="50px" height="50px">
+                </button>
             </div>
-            <p>Don't have the account? <a href="#">Sign Up</a></p>
+            <p class="roboto-font">Don't have the account? <a href="#" class="link-register roboto-bold">Sign Up</a></p>
         </form>
     </div>
 </body>
