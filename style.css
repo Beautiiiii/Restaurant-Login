@@ -47,6 +47,19 @@ body {
     color: white;
 }
 
+input {
+    width: 588px;
+    height: 38px;
+    color: #000;
+}
+
+.login-button button {
+    width: 595px;
+    height: 38px;
+    background-color: #E1BB3E;
+    border: none;
+}
+
 .forgot-button {
     text-decoration: none;
     color: #fff
