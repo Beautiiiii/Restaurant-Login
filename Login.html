@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In page</title>
     <link rel="stylesheet" href="style.css">
 
     <!-- Google Font -->
@@ -12,9 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="circle-1"></div>
+    <!-- <div class="circle-1"></div> -->
     <div class="login-container">
-        <h1 class="login">Sign In</h1>
+        <form>
+            <h1 class="login">Sign In</h1>
+            <div class="column-box">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="column-box">
+                <input type="text" placeholder="Password">
+            </div>              
+            <button class="forgot-button">Forgot Password?</button>
+            <div class="login-button">
+                <button>Sign In</button>
+            </div>
+            <p>Or</p>
+            <div class="other-login">
+                <button><img src="https://img.icons8.com/?size=512&id=17949&format=png" alt="Google"></button>
+                <button><img src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook"></button>
+            </div>
+            <p>Don't have the account? <a href="#">Sign Up</a></p>
+        </form>
     </div>
 </body>
 </html>
